@@ -1,31 +1,54 @@
-var friendName = ("Sajjad Molliek");
-console.log(friendName);
+// ১. Variable কি ?
+// ans: variable is a "specific computer memory storage" where are we can storage & use different type of value.
 
-var strType = "hablu Programmer";
-console.log(typeof strType);
+// ২. Variable কিভাবে লিখতে হয় ?
+// ans: var
 
-var numType = 1734402046;
-console.log( numType);
+// ৩. string type variable কি ও কি ভাবে লিখতে হয় ?
+// ans: string type variable a latter use kora hoy hoy. ata jkono word/name/latter/blog etc kaje use kora hoy. Ex: var myName ="Jannatul Axsa";
 
- var boolType = true;
- console.log(typeof boolType);
 
- var rochona = "lorem is a gadha is not a matha batha ...amar mama kutta tar nai vutta.. kaki holo soitan kakir  nai potan. kakar sala bolod se holo goru ";
+// ৪. number type variable কি ও কি ভাবে লিখতে হয় ?
+// ans: number type variable a number use kora hoy hoy. Ex: var numType =30;
 
- console.log(rochona.toUpperCase());
+// ৫. Boolan type variable  কি ও কি ভাবে লিখতে হয় ?
+// ans: boolean type variable a 0/1 kaj kore. true/false(reserve keyword). 
+//Ex: var boolType =true;
+// console.log(boolType)
 
- var myFnd = "sajjad  jeni  saju  janifa  axsa";
-console.log( myFnd.split("axsa"));
-console.log( myFnd.indexOf("janifa"));
+// ৬. toUpperCase() & toLowerCase() এর ব্যাবহার কি ভাবে করতে হয় ? 
+// ans: var loveLatter = "jdhfo cjhds udhfsdj jhdsh ihfdjhf udhfjh udhfsjdhb hn jhjhc hjh ";
+// console.log(loveLatter.toUpperCase())
 
-var num1 = "55.557";
-var num2 = 99
-num1 = parseFloat(num1);
+// var loveLatter = "jdhfo cjhds udhfsdj jhdsh ihfdjhf udhfjh udhfsjdhb hn jhjhc hjh ";
+// console.log(loveLatter.toLowerCase())
 
-var total = num1+num2;
+// ৭. JavaScript এর মোট কয়টি অপারেটর আছে ও কি কি ?
+// ans: 5 oparetor. +,-,*,/,%
 
-console.log(total);
+// ৮. Math.abs() এর ব্যাবহার লিখুন । 
+// ans: var voter = -0.45;
+// var sum = Math.ceil(voter);
+// console.log(sum)-------0.45
 
-num1 = " "+num1;
-var total = num1+num2;
-console.log(total);
+// ৯. Math.celi()  এর ব্যাবহার লিখুন । 
+// ans: var voter = 0.45;
+// var sum = Math.ceil(voter);
+// console.log(sum)-------1
+
+// ১০. Math.Floor() এর ব্যাবহার লিখুন । 
+// ans: var voter = 0.55;
+// var sum = Math.round(voter);
+// console.log(sum)-------0
+
+// ১১. Math.round() এর ব্যাবহার লিখুন ।
+// ans: var voter = 0.55;
+// var sum = Math.round(voter);
+// console.log(sum)------1
+
+// ১২. Math.random() এর ব্যাবহার লিখুন ।
+// ans: var sum = Math.random()*15
+// console.log(sum)
+
+// asignment.js - GitHub Link 
+// ans: var numType =30;
